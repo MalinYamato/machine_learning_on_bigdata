@@ -50,6 +50,7 @@ RUN pip3 install numpy
 RUN pip3 install scipy
 RUN pip3 install -U scikit-learn
 RUN pip3 install spark-sklearn
+RUN pip3 install -U mathplotlib
 
 #Scala kernel for Spark
 RUN apt-get install -y ca-certificates-java --no-install-recommends
