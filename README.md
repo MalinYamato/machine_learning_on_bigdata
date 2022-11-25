@@ -1,4 +1,4 @@
-# BigData Solution written in Python based on Hadoop and Spark.
+# Machine Learning Solution on BigData is a fork and based on BigData Solution written in Python based on Hadoop and Spark.
 ### Scale your data management by distributing workload and storage on Hadoop and Spark Clusters, explore and transform your data in Jupyter Notebook.
 
 <!--
