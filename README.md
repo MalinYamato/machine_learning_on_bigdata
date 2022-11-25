@@ -2,7 +2,7 @@
 
 This is a layer on top of Martin Karlons work thats add machine learning, data mining, ai and mathematical staticstic capabilites to his framework. 
 ### Malin Yamato 大和まりん
-LinkedIn : [Malin Yamato][https://www.linkedin.com/in/malin-yamato-l%C3%A4%C3%A4kk%C3%B6-randstr%C3%B6m-5032041a3/] \
+LinkedIn : [Malin Yamato][linkedin-malin]
 Email : yamto@malin.jp   
 
 ### Scale your data management by distributing workload and storage on Hadoop and Spark Clusters, explore and transform your data in Jupyter Notebook.
@@ -65,5 +65,6 @@ Project Link: [github.com/martinkarlssonio/big-data-solution](https://github.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-malin]: ttps://www.linkedin.com/in/malin-yamato-l%C3%A4%C3%A4kk%C3%B6-randstr%C3%B6m-5032041a3/
 [linkedin-url]: https://linkedin.com/in/martin-karlsson
 [arch]: arch.png
