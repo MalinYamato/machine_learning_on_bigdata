@@ -1,6 +1,6 @@
 # Machine Learning on BigData is based (a fork) on BigData Solution written in Python based on Hadoop and Spark.
 
-This is a layer on top of Martin Karlons work thats add machine learning, data mining, ai and mathematical staticstic capabilites to his framework. 
+This is a layer on top of Martin Karlsons work thats add machine learning, data mining, ai and mathematical staticstic capabilites to his framework. 
 
 #### Malin Yamato 大和まりん
 Email : yamto@malin.jp 
