@@ -1,4 +1,4 @@
-ARG spark_version="3.0.0"
+ARG spark_version="3.2.2"
 FROM spark-base
 
 ARG build_date
