@@ -2,7 +2,8 @@
 
 This is a layer on top of Martin Karlons work thats add machine learning, data mining, ai and mathematical staticstic capabilites to his framework. 
 #### Malin Yamato 大和まりん
-Email : yamto@malin.jp   
+Email : yamto@malin.jp 
+![ml2]
 
 ### Scale your data management by distributing workload and storage on Hadoop and Spark Clusters, explore and transform your data in Jupyter Notebook.
 
