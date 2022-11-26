@@ -79,6 +79,6 @@ Project Link: [github.com/martinkarlssonio/big-data-solution](https://github.com
 [linkedin-url]: https://linkedin.com/in/martin-karlsson
 [arch]: arch.png
 [ml2]: ml2.png
-[iva]: iva2.png
+[iva]: iva3.png
 
 
