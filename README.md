@@ -1,8 +1,17 @@
 # Machine Learning on BigData -- is based (a fork) on BigData Solution written in Python based on Hadoop and Spark.
 
-It is a layer on top of Martin Karlsons framework that adds machine learning, data mining, AI and mathematical staticstic capabilites to it, an instance of the framework which runs with upgraded versions 3.2.2 of Spark, 3.5.0 of Jyputerlab and 3.8.4 of Python.
+It is a layer on top of Martin Karlsons framework that adds machine learning, data mining, AI and mathematical staticstic capabilites to it, an instance of the framework which runs with upgraded versions 3.2.2 of Spark, 3.5.0 of Jyputerlab and 3.8.4 of Python. 
 #### Malin Yamato 大和まりん
 Email : yamto@malin.jp 
+
+## objective 
+To provide next genration of intensive care methods applying machine learning and artificial intelligece to swiftly provide optinal tratment for intensive care possibvle care for those suffering from multi desise conditions.
+
+### Something like this
+
+![overview][intensive]
+
+### Currenty
 
 ![overview][ml2]
 
@@ -70,3 +79,4 @@ Project Link: [github.com/martinkarlssonio/big-data-solution](https://github.com
 [linkedin-url]: https://linkedin.com/in/martin-karlsson
 [arch]: arch.png
 [ml2]: ml2.png
+[intensive] : intensivecare.png
