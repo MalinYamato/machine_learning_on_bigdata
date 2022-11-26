@@ -3,15 +3,18 @@
 It is a layer on top of Martin Karlsons framework that adds machine learning, data mining, AI and mathematical staticstic capabilites to it, an instance of the framework which runs with upgraded versions 3.2.2 of Spark, 3.5.0 of Jyputerlab and 3.8.4 of Python. 
 #### Malin Yamato 大和まりん
 Email : yamto@malin.jp 
+post-graduate student, Artifical Intelligence Applied to Medicine AIM
+Department of Physiology and Pharmaocolgy FYFA, Karolinska Institutet 
+Deparment of Computer and Systems Sciences, Stockholm University
 
-## Objective of this fork
+## Objective of this project
 To provide next genration of intensive care methods applying machine learning and artificial intelligece to swiftly provide optinal tratment for intensive care possibvle care for those suffering from multi desise conditions.
 
-## Something like this
+## Vision or Something like this
 
 ![overview1][iva]
 
-## Currenty
+## Currenty what we have here
 
 ![overview][ml2]
 
