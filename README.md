@@ -79,4 +79,4 @@ Project Link: [github.com/martinkarlssonio/big-data-solution](https://github.com
 [linkedin-url]: https://linkedin.com/in/martin-karlsson
 [arch]: arch.png
 [ml2]: ml2.png
-[intensive] : intensivcecare.png
+[intensive] : iva.png
