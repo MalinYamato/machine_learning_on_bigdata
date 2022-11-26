@@ -7,11 +7,11 @@ Email : yamto@malin.jp
 ## Objective of this fork
 To provide next genration of intensive care methods applying machine learning and artificial intelligece to swiftly provide optinal tratment for intensive care possibvle care for those suffering from multi desise conditions.
 
-### Something like this
+## Something like this
 
-![overview1][intensive]
+![overview1][iva]
 
-### Currenty
+## Currenty
 
 ![overview][ml2]
 
@@ -79,4 +79,6 @@ Project Link: [github.com/martinkarlssonio/big-data-solution](https://github.com
 [linkedin-url]: https://linkedin.com/in/martin-karlsson
 [arch]: arch.png
 [ml2]: ml2.png
-[intensive] : iva.png
+[iva]: iva.png
+
+
