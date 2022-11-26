@@ -3,7 +3,7 @@
 It is a layer on top of Martin Karlsons framework that adds machine learning, data mining, AI and mathematical staticstic capabilites to it, an instance of the framework which runs with upgraded versions 3.2.2 of Spark, 3.5.0 of Jyputerlab and 3.8.4 of Python. 
 #### Malin Yamato 大和まりん
 Email : yamto@malin.jp 
-post-graduate student, Artifical Intelligence Applied to Medicine AIM
+post-graduate student, Artifical Intelligence Applied to Medicine AIM \
 Department of Physiology and Pharmaocolgy FYFA, Karolinska Institutet 
 Deparment of Computer and Systems Sciences, Stockholm University
 
