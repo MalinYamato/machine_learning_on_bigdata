@@ -4,7 +4,7 @@ It is a layer on top of Martin Karlsons framework that adds machine learning, da
 #### Malin Yamato 大和まりん
 Email : yamto@malin.jp \
 post-graduate student, Artifical Intelligence Applied to Medicine AIM \
-Department of Physiology and Pharmaocolgy FYFA, Karolinska Institutet 
+Department of Physiology and Pharmaocolgy FYFA, Karolinska Institutet and 
 Deparment of Computer and Systems Sciences, Stockholm University
 
 ## Objective of this project
