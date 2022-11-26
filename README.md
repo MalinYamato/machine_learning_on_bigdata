@@ -4,7 +4,7 @@ It is a layer on top of Martin Karlsons framework that adds machine learning, da
 #### Malin Yamato 大和まりん
 Email : yamto@malin.jp 
 
-## objective 
+## Objective of this fork
 To provide next genration of intensive care methods applying machine learning and artificial intelligece to swiftly provide optinal tratment for intensive care possibvle care for those suffering from multi desise conditions.
 
 ### Something like this
@@ -79,4 +79,4 @@ Project Link: [github.com/martinkarlssonio/big-data-solution](https://github.com
 [linkedin-url]: https://linkedin.com/in/martin-karlsson
 [arch]: arch.png
 [ml2]: ml2.png
-[intensive] : intensivecare.png
+[intensive] : intensivcecare.png
