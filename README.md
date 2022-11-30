@@ -8,7 +8,7 @@ Department of Physiology and Pharmaocolgy FYFA, Karolinska Institutet and
 Deparment of Computer and Systems Sciences, Stockholm University
 
 ## Objective of this project
-To provide next generation of intensive care methods, methods in anasthetics applying machine learning and artificial intelligece to swiftly provide relief and optinal tratment for intensive care possibly care for those suffering from multi desise conditions. sepsis, multplie organ failures.
+To provide next generation of intensive care methods, methods in anasthetics applying machine learning and artificial intelligece to swiftly provide relief and optinal tratment to intensive care possibly care for those suffering from multi desise conditions. sepsis, multplie organ failures.
 
 ## Vision or Something like this
 
