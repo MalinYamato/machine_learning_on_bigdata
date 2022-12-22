@@ -22,7 +22,7 @@ VOLUME ${shared_workspace}
 CMD ["bash"]
 
 ARG spark_version="3.2.2"
-ARG hadoop_version="3"
+ARG hadoop_version="3.2"
 ARG build_date
 
 RUN curl https://archive.apache.org/dist/spark/spark-${spark_version}/spark-${spark_version}-bin-hadoop${hadoop_version}.tgz -o spark.tgz && \
