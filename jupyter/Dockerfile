@@ -4,7 +4,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 ARG build_date
 ARG spark_version="3.3.0"
-ARG jupyterlab_version="3.5.0"
+ARG jupyterlab_version="3.5.2"
 ARG scala_kernel_version="0.10.9"
 ARG scala_version="2.12.10"
 ARG scikit_learn_version="1.2.0"
@@ -20,7 +20,7 @@ RUN apt install -y software-properties-common && add-apt-repository universe && 
   python3.10 \
   python3-pip \
   python3-dev \
-  && pip3 install --upgrade pip \ 
+  && pip3 install --upgrade pip \
   && rm -rf /var/lib/apt/lists/*
 
 RUN ln -s /usr/bin/python3.10 /usr/bin/python
@@ -40,7 +40,7 @@ COPY workspace/ /workspace/
 
 RUN pip3 install wget pyspark==${spark_version} jupyterlab==${jupyterlab_version}
 RUN pip3 install pandas
-RUN pip3 install numpy 
+RUN pip3 install numpy
 RUN pip3 install scipy
 RUN pip3 install scikit-learn==${scikit_learn_version}
 RUN pip3 install scikit-spark
@@ -62,3 +62,14 @@ RUN R -e "IRkernel::installspec(displayname = 'R 3.5', user = FALSE)"
 RUN curl https://archive.apache.org/dist/spark/spark-${spark_version}/SparkR_${spark_version}.tar.gz -k -o sparkr.tar.gz
 RUN R CMD INSTALL sparkr.tar.gz
 RUN rm -f sparkr.tar.gz
+
+EXPOSE 8888
+
+WORKDIR /workspace
+
+ENV PYSPARK_PYTHON=/usr/bin/python3.10
+ENV PYSPARK_DRIVER_PYTHON=3.10
+
+CMD ["jupyter" , "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token="]
+
+
