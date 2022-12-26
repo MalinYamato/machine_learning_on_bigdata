@@ -3,7 +3,7 @@ ENV TZ=Europe/Stockholm
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 ARG build_date
-ARG spark_version="3.3.0"
+ARG spark_version="3.3.1"
 ARG jupyterlab_version="3.5.2"
 ARG scala_kernel_version="0.10.9"
 ARG scala_version="2.12.10"
