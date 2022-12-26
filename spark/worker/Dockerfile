@@ -1,4 +1,4 @@
-ARG spark_version="3.2.2"
+ARG spark_version="3.3.1"
 ARG SPARK_MASTER_HOST="spark-master"
 ARG SPARK_MASTER_PORT="7077"
 FROM spark-base
