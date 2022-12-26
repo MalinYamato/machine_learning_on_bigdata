@@ -1,6 +1,6 @@
 # Machine Learning on BigData -- is based (a fork) on BigData Solution written in Python based on Hadoop and Spark.
 
-It is a layer on top of Martin Karlsons framework that adds machine learning, data mining, AI and mathematical staticstic capabilites to it, an instance which runs with upgraded versions 3.3.1 of Spark and PySpark and 3.10.6 of Python. The instance runs on Ubuntu 22.04 insteead of Alpine, which consumes some more resources, but makes the life of intergrating new s/w a great deal less painfu. It is currently capalbe of running most machine learning python packages inculding the model calibration utiility GridSearchCV, which may run on executors at Sparc worker nodes. 
+It is a layer on top of Martin Karlsons framework that adds machine learning, data mining, AI and mathematical staticstic capabilites to it, an instance which runs with upgraded versions 3.3.1 of Spark and PySpark and 3.10.6 of Python. The instance runs on Ubuntu 22.04 insteead of Alpine, which consumes some more resources, but makes the life of intergrating new s/w a great deal less painfu. It is currently capalbe of running most machine learning python packages inculding the model calibration utiility GridSearchCV with the the help of joblibspark, which may run on executors at Sparc worker nodes. 
 
 #### Malin Yamato 大和まりん
 Email : yamto@malin.jp \
