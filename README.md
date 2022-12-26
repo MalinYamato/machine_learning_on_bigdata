@@ -1,6 +1,7 @@
 # Machine Learning on BigData -- is based (a fork) on BigData Solution written in Python based on Hadoop and Spark.
 
-It is a layer on top of Martin Karlsons framework that adds machine learning, data mining, AI and mathematical staticstic capabilites to it, an instance of the framework which runs with upgraded versions 3.2.2 of Spark, 3.5.0 of Jyputerlab and 3.8.4 of Python. 
+It is a layer on top of Martin Karlsons framework that adds machine learning, data mining, AI and mathematical staticstic capabilites to it, an instance of the framework which runs with upgraded versions 3.3.1 of Spark and PySpark and 3.10.6 of Python. This instance runs on Ubuntu 22.04 insteead of Alpine, which consumes some more resources, but makes the life of intergrating new s/w a great deal less painfu. 
+
 #### Malin Yamato 大和まりん
 Email : yamto@malin.jp \
 post-graduate student, Artifical Intelligence Applied to Medicine AIM \
