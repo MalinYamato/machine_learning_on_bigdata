@@ -82,8 +82,8 @@ services:
     build: ./spark/worker
     container_name: spark-worker-1
     environment:
-      - SPARK_WORKER_CORES=1
-      - SPARK_WORKER_MEMORY=512m
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=5g
     ports:
       - 8081:8081
     networks:
@@ -97,12 +97,42 @@ services:
     build: ./spark/worker
     container_name: spark-worker-2
     environment:
-      - SPARK_WORKER_CORES=1
-      - SPARK_WORKER_MEMORY=512m
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=5g
     networks:
      - bds-network
     ports:
       - 8082:8081
+    volumes:
+      - shared-workspace:/opt/workspace
+    depends_on:
+      - spark-master
+
+  spark-worker-3:
+    build: ./spark/worker
+    container_name: spark-worker-3
+    environment:
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=5g
+    ports:
+      - 8083:8081
+    networks:
+     - bds-network
+    volumes:
+      - shared-workspace:/opt/workspace
+    depends_on:
+      - spark-master
+
+  spark-worker-4:
+    build: ./spark/worker
+    container_name: spark-worker-4
+    environment:
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=5g
+    networks:
+     - bds-network
+    ports:
+      - 8084:8081
     volumes:
       - shared-workspace:/opt/workspace
     depends_on:
@@ -112,6 +142,9 @@ services:
   jupyter-notebook:
     build: ./jupyter
     container_name: jupyter-notebook
+    environment:
+      - PYSPARK_PYTHON=/usr/bin/python3.9
+      - PYSPARK_DRIVER_PYTHON=/usr/bin/python3.9
     ports:
       - 8888:8888
       - 4040:4040
@@ -119,6 +152,7 @@ services:
      - bds-network
     volumes:
       - shared-workspace:/opt/workspace
+      - ./jupyter/workspace:/workspace 
 
 volumes:
   hadoop_namenode:
