@@ -37,6 +37,7 @@ CMD ["bash"]
 
 #JupyterLab + Python kernel for PySpark
 COPY workspace/ /workspace/
+RUN ln -s /usr/bin/python3.10 /usr/bin/python3.9
 
 RUN pip3 install wget pyspark==${spark_version} jupyterlab==${jupyterlab_version}
 RUN pip3 install pandas
