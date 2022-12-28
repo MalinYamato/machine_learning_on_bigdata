@@ -82,8 +82,8 @@ services:
     build: ./spark/worker
     container_name: spark-worker-1
     environment:
-      - SPARK_WORKER_CORES=2
-      - SPARK_WORKER_MEMORY=5g
+      - SPARK_WORKER_CORES=4
+      - SPARK_WORKER_MEMORY=10g
     ports:
       - 8081:8081
     networks:
@@ -97,8 +97,8 @@ services:
     build: ./spark/worker
     container_name: spark-worker-2
     environment:
-      - SPARK_WORKER_CORES=2
-      - SPARK_WORKER_MEMORY=5g
+      - SPARK_WORKER_CORES=4
+      - SPARK_WORKER_MEMORY=10g
     networks:
      - bds-network
     ports:
@@ -112,8 +112,8 @@ services:
     build: ./spark/worker
     container_name: spark-worker-3
     environment:
-      - SPARK_WORKER_CORES=2
-      - SPARK_WORKER_MEMORY=5g
+      - SPARK_WORKER_CORES=4
+      - SPARK_WORKER_MEMORY=10g
     ports:
       - 8083:8081
     networks:
@@ -127,8 +127,8 @@ services:
     build: ./spark/worker
     container_name: spark-worker-4
     environment:
-      - SPARK_WORKER_CORES=2
-      - SPARK_WORKER_MEMORY=5g
+      - SPARK_WORKER_CORES=4
+      - SPARK_WORKER_MEMORY=10g
     networks:
      - bds-network
     ports:
