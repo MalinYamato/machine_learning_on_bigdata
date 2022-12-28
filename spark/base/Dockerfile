@@ -2,10 +2,11 @@ FROM ubuntu:22.04
 ENV TZ=Europe/Stockholm
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
+ARG scikit_learn_version="1.2.0"
+
 ARG build_date
 ARG spark_version="3.3.1"
-# inconsistency in the repository of spark-hadoop .. use hadoop versoin 3.2 when getting spark 3.2.3 or earlier
-# but for newer use only hadoop version 3 or later
+#inconsistency in the repository of spark-hadoop .. use hadoop versoin 3.2 when getting spark 3.2.3 but for newer use only hadoop version 3
 ARG hadoop_version="3" 
 ARG scala_version="2.12.10"
 ARG build_date
@@ -20,12 +21,16 @@ RUN apt install -y software-properties-common && add-apt-repository universe && 
   && rm -rf /var/lib/apt/lists/*
 
 RUN ln -s /usr/bin/python3.10 /usr/bin/python
-RUN ln -s /usr/bin/python3.10 /usr/bin/python3.9
 RUN mkdir -p ${shared_workspace}/data
 RUN mkdir -p /usr/share/man/man1
 RUN curl https://downloads.lightbend.com/scala/2.12.10/scala-${scala_version}.deb -k -o scala.deb
 RUN apt install -y ./scala.deb
 RUN rm -rf scala.deb /var/lib/apt/lists/*
+
+RUN pip3 install joblib
+RUN pip3 install joblibspark
+RUN pip3 install scikit-learn==${scikit_learn_version}
+RUN pip3 install scikit-spark
 
 ENV SCALA_HOME="/usr/bin/scala"
 ENV PATH=${PATH}:${SCALA_HOME}/bin
@@ -45,7 +50,6 @@ RUN curl https://archive.apache.org/dist/spark/spark-${spark_version}/spark-${sp
 ENV SPARK_HOME /usr/bin/spark-${spark_version}-bin-hadoop${hadoop_version}
 ENV SPARK_MASTER_HOST spark-master
 ENV SPARK_MASTER_PORT 7077
+RUN cp -fr /usr/bin/python3.10 /usr/bin/python3.9
 ENV PYSPARK_PYTHON=/usr/bin/python3.10
 ENV PYSPARK_DRIVER_PYTHON=/usr/bin/python3.10
-
-WORKDIR ${SPARK_HOME}
