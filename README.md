@@ -1,4 +1,4 @@
-# Machine Learning on BigData -- distributed ML related computation bassed on real time streams as well as big-data.  
+# Machine Learning on BigData -- distributed ML related computation bassed on real-time micro-batch streams as well as big-data.  
 
 It is a layer on top of Martin Karlsons framework that adds machine learning, data mining, AI and mathematical staticstic capabilites to it, an instance which runs with upgraded versions 3.3.1 of Spark and PySpark and 3.10.6 of Python. The instance runs on Ubuntu 22.04 insteead of Alpine, which consumes some more resources, but makes the life of intergrating new s/w a great deal less painfu. It is currently capalbe of running most machine learning python packages inculding the model calibration utiility GridSearchCV with the the help of joblibspark, which enablies sckit-learn classes such as GridSearchCV to run on executors on Sparc worker nodes. 
 
