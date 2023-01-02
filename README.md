@@ -11,11 +11,9 @@ Deparment of Computer and Systems Sciences, Stockholm University
 ## Objective of this project
 To provide next generation of intensive care methods, methods in anasthetics applying machine learning and artificial intelligece to swiftly provide relief and optinal tratment to intensive care possibly care for those suffering from multi desise conditions. sepsis, multplie organ failures.
 
-
-
 ## Currenty what we have here
 
-![overview][ml2]
+![overview][ml2][ml2]
 
 ## Comming up version 2
 ### Purpose
