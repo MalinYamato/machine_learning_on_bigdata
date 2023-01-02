@@ -13,7 +13,7 @@ To provide next generation of intensive care methods, methods in anasthetics app
 
 ## Currenty what we have here and the vision, the goal
 
-![overview][ml2]{: width="50%"} ![overview1][iva]{: width="50%"}
+![overview][ml2]{: width="20%"} ![overview1][iva]{: width="20%"}
 
 ## Comming up version 2
 ### Purpose
