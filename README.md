@@ -11,19 +11,15 @@ Deparment of Computer and Systems Sciences, Stockholm University
 ## Objective of this project
 To provide next generation of intensive care methods, methods in anasthetics applying machine learning and artificial intelligece to swiftly provide relief and optinal tratment to intensive care possibly care for those suffering from multi desise conditions. sepsis, multplie organ failures.
 
-## Currenty what we have here
+## Currenty what we have here and the vision, the goal
 
-![overview][ml2]![overview][ml2]
+![overview][ml2]![overview1][iva]
 
 ## Comming up version 2
 ### Purpose
 To emulate a cluster with haivng services run in docker on a virtual machine each VM with its own ip address. This will make it easeir to add datanode and worker nodes locally or on physical machine by cloing a virtual machine node and deployu it there. 
 
 ![overview3][v2]
-
-## Vision or Something like this
-
-![overview1][iva]
 
 ## Pre-requisite
 - this is ony tested on debian based Linux distributions, It should work on all Linuxes and I see no reson for it not to work on Windows.
