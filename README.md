@@ -11,13 +11,21 @@ Deparment of Computer and Systems Sciences, Stockholm University
 ## Objective of this project
 To provide next generation of intensive care methods, methods in anasthetics applying machine learning and artificial intelligece to swiftly provide relief and optinal tratment to intensive care possibly care for those suffering from multi desise conditions. sepsis, multplie organ failures.
 
-## Vision or Something like this
 
-![overview1][iva]
 
 ## Currenty what we have here
 
 ![overview][ml2]
+
+## Comming up version 2
+###Purpose
+To emulate a cluster with haivng services run in docker on a virtual machine each VM with its own ip address. This will make it easeir to add datanode and worker nodes locally or on physical machine by cloing a virtual machine node and deployu it there. 
+
+![overview][v2]
+
+## Vision or Something like this
+
+![overview1][iva]
 
 ### Scale your data management by distributing workload and storage on Hadoop and Spark Clusters, explore and transform your data in Jupyter Notebook.
 
@@ -84,5 +92,6 @@ Project Link: [github.com/martinkarlssonio/big-data-solution](https://github.com
 [arch]: arch.png
 [ml2]: ml2.png
 [iva]: iva3.png
+[v2]: MLDB.png
 
 
