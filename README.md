@@ -28,7 +28,7 @@ To emulate a cluster with haivng services run in docker on a virtual machine eac
 ![overview1][iva]
 
 ## Pre-requisite
-- Thi is ony tested on Linux, on debian based distributions. It should work on all Linuxes.
+- this is ony tested on debian based Linux distributions, It should work on all Linuxes and I see no reson for it not to work on Windows.
 - latest Docker and VirtualBox
 
 ## Recommended harware requirements
@@ -47,7 +47,6 @@ Access Spark Master UI on ' http://localhost:8080 '
 
 ### Jupyter
 Access Jupyter UI on ' http://localhost:8888 '
-
 
 [linkedin-malin]: ttps://www.linkedin.com/in/malin-yamato-l%C3%A4%C3%A4kk%C3%B6-randstr%C3%B6m-5032041a3/
 [ml2]: ml2.png
