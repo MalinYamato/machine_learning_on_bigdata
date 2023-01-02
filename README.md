@@ -8,8 +8,6 @@ post-graduate student, Artifical Intelligence Applied to Medicine AIM \
 Department of Physiology and Pharmaocolgy FYFA, Karolinska Institutet and 
 Deparment of Computer and Systems Sciences, Stockholm University
 
-
-
 ## Currenty what we have here - the vision, the goal
 
 ### Why I am doing this or the objective of this project
@@ -19,15 +17,15 @@ To provide next generation of intensive care methods, methods in anasthetics app
 
 ## Comming up version 2
 ### Purpose
-To emulate a cluster with haivng services run in docker on a virtual machine each VM with its own ip address. This will make it easeir to add datanode and worker nodes locally or on physical machine by cloing a virtual machine node and deployu it there. 
+To emulate a cluster with haivng services run in docker on a virtual machine VM with its own ip address. This will make it easeir to add datanode and worker nodes locally or on physical machine by cloing a virtual machine node and deployu it there. 
 
-![overview3][v2]
+<img src="https://github.com/MalinYamato/machine_learning_on_bigdata/blob/main/MLBD.png" width="80%"> 
 
 ## Pre-requisite
 - this is ony tested on debian based Linux distributions, It should work on all Linuxes and I see no reson for it not to work on Windows.
 - latest Docker and VirtualBox
 
-## Recommended harware requirements
+## Recommended hardware requirements
 - 32 GB RAM 
 - 8 core CPU
 
