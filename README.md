@@ -17,7 +17,7 @@ To provide next generation of intensive care methods, methods in anasthetics app
 
 ## Comming up version 2
 ### Purpose
-To emulate a cluster with haivng services run in docker on a virtual machine VM with its own ip address. This will make it easeir to add datanode and worker nodes locally or on physical machine by cloing a virtual machine node and deployu it there. 
+To emulate the Hadoop/Spark/Kafka cluster haivng services run in docker on a virtual machine VM with its own ip address. This will make it easeir to add datanode and worker nodes locally or on physical machine by cloing a virtual machine node and deployu it there. 
 
 <img src="https://github.com/MalinYamato/machine_learning_on_bigdata/blob/main/MLBD.png" width="80%"> 
 
