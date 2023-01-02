@@ -8,12 +8,14 @@ post-graduate student, Artifical Intelligence Applied to Medicine AIM \
 Department of Physiology and Pharmaocolgy FYFA, Karolinska Institutet and 
 Deparment of Computer and Systems Sciences, Stockholm University
 
-## Objective of this project
-To provide next generation of intensive care methods, methods in anasthetics applying machine learning and artificial intelligece to swiftly provide relief and optinal tratment to intensive care possibly care for those suffering from multi desise conditions. sepsis, multplie organ failures.
 
-## Currenty what we have here and the vision, the goal
 
-![overview][ml2]{: width="20%"} ![overview1][iva]{: width="20%"}
+## Currenty what we have here - the vision, the goal
+
+### Why I am doing this or the objective of this project
+To provide next generation of intensive care methods, methods in anasthetics applying machine learning and artificial intelligece to swiftly provide relief and optimmal tratment to intensive care, which mostly includes care for those suffering from multi-desise conditions, sepsis, multplie organ failures -- based on ASAP AI analytics provided by a framwork such as this one.
+
+<img src="https://github.com/MalinYamato/machine_learning_on_bigdata/blob/main/ml2.png" width="30%"> <img src="https://github.com/MalinYamato/machine_learning_on_bigdata/blob/main/iva3.png" width="50%">
 
 ## Comming up version 2
 ### Purpose
