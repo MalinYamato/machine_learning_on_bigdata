@@ -18,10 +18,10 @@ To provide next generation of intensive care methods, methods in anasthetics app
 ![overview][ml2]
 
 ## Comming up version 2
-###Purpose
+### Purpose
 To emulate a cluster with haivng services run in docker on a virtual machine each VM with its own ip address. This will make it easeir to add datanode and worker nodes locally or on physical machine by cloing a virtual machine node and deployu it there. 
 
-![overview][v2]
+![overview3][v2]
 
 ## Vision or Something like this
 
