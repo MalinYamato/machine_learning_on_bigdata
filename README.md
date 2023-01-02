@@ -13,7 +13,7 @@ Deparment of Computer and Systems Sciences, Stockholm University
 ## Currenty what we have here - the vision, the goal
 
 ### Why I am doing this or the objective of this project
-To provide next generation of intensive care methods, methods in anasthetics applying machine learning and artificial intelligece to swiftly provide relief and optimmal tratment to intensive care, which mostly includes care for those suffering from multi-desise conditions, sepsis, multplie organ failures -- based on ASAP AI analytics provided by a framwork such as this one.
+To provide next generation of intensive care methods, methods in anasthetics applying machine learning and artificial intelligece to swiftly provide relief and optimmal tratment to intensive care, which mostly includes care for those suffering from multi-desise conditions, sepsis, multplie organ failures -- based on ASAP AI analytics provided by a framwork such as this one. The figure to the left is what we have today and the one on the right is where wee are heading.
 
 <img src="https://github.com/MalinYamato/machine_learning_on_bigdata/blob/main/ml2.png" width="30%"> <img src="https://github.com/MalinYamato/machine_learning_on_bigdata/blob/main/iva3.png" width="50%">
 
