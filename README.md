@@ -27,6 +27,9 @@ To emulate a cluster with haivng services run in docker on a virtual machine eac
 
 ![overview1][iva]
 
+
+
+
 ### Scale your data management by distributing workload and storage on Hadoop and Spark Clusters, explore and transform your data in Jupyter Notebook.
 
 <!--
@@ -92,6 +95,6 @@ Project Link: [github.com/martinkarlssonio/big-data-solution](https://github.com
 [arch]: arch.png
 [ml2]: ml2.png
 [iva]: iva3.png
-[v2]: MLDB.png
+[v2]: MLBD.png
 
 
